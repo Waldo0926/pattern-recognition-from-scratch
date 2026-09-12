@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pattern-recognition-from-scratch"
+version = "0.1.0"
+description = "Classical pattern recognition algorithms implemented from scratch with NumPy."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Waldo"}]
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+]
+
+[project.optional-dependencies]
+experiments = [
+  "matplotlib>=3.8",
+  "scikit-learn>=1.4",
+]
+dev = [
+  "matplotlib>=3.8",
+  "pytest>=8.0",
+  "scikit-learn>=1.4",
+]
+
+[tool.setuptools]
+packages = ["prlib"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
