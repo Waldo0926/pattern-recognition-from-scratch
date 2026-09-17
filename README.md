@@ -6,7 +6,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-[简体中文](README.zh-CN.md)
+**English** · [中文](README.zh-CN.md)
 
 This repository revisits material from an undergraduate **Pattern Recognition** course and turns it into a small, testable implementation library. The original coursework included hands-on experiments with Gaussian Naive Bayes, multiclass Perceptron, K-Means, and Fuzzy C-Means; Fisher LDA and Hidden Markov Models were also covered in the course and are implemented here as later extensions.
 
