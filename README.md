@@ -2,9 +2,10 @@
 
 > Classical pattern recognition algorithms implemented from scratch with NumPy, with reproducible experiments on standard datasets.
 
+[![Tech](https://img.shields.io/badge/Tech-Python_3.10%2B_%C2%B7_NumPy-7c3aed?style=for-the-badge)](#)
+[![License](https://img.shields.io/badge/License-MIT-16a34a?style=for-the-badge)](LICENSE)
+
 [![CI](https://github.com/Waldo0926/pattern-recognition-from-scratch/actions/workflows/ci.yml/badge.svg)](https://github.com/Waldo0926/pattern-recognition-from-scratch/actions/workflows/ci.yml)
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 **English** · [中文](README.zh-CN.md)
 

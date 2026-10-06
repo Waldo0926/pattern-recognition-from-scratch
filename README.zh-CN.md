@@ -2,9 +2,10 @@
 
 > 使用 NumPy 从零实现经典模式识别算法，并在标准数据集上进行可复现实验与对照评估。
 
+[![技术](https://img.shields.io/badge/%E6%8A%80%E6%9C%AF-Python_3.10%2B_%C2%B7_NumPy-7c3aed?style=for-the-badge)](#)
+[![许可证](https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF%E8%AF%81-MIT-16a34a?style=for-the-badge)](LICENSE)
+
 [![CI](https://github.com/Waldo0926/pattern-recognition-from-scratch/actions/workflows/ci.yml/badge.svg)](https://github.com/Waldo0926/pattern-recognition-from-scratch/actions/workflows/ci.yml)
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 [English](README.md)
 
