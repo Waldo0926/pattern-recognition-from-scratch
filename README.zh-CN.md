@@ -7,7 +7,7 @@
 
 [![CI](https://github.com/Waldo0926/pattern-recognition-from-scratch/actions/workflows/ci.yml/badge.svg)](https://github.com/Waldo0926/pattern-recognition-from-scratch/actions/workflows/ci.yml)
 
-[English](README.md)
+[English](README.md) · **中文**
 
 这个项目源自本科阶段的 **《模式识别》** 学习，并将当年的实验内容重新整理为一个可运行、可测试、可复现的小型算法实现库。原课程实验实际包含 Gaussian Naive Bayes、Multiclass Perceptron、K-Means 和 Fuzzy C-Means；课程中同时学习了 Fisher LDA 与 Hidden Markov Model，因此本仓库后续也将这两部分重新实现并纳入完整项目。
 
@@ -27,10 +27,10 @@
 |---|---|:---:|:---:|:---:|
 | Gaussian Naive Bayes | 概率分类 | ✓ | ✓ | ✓ |
 | Multiclass Perceptron | 线性分类 | ✓ | ✓ | ✓ |
-| Fisher LDA | 判别分析 | ✓ | — | ✓ |
+| Fisher LDA | 判别分析 | ✓ | ✗ | ✓ |
 | K-Means | 硬聚类 | ✓ | ✓ | ✓ |
 | Fuzzy C-Means | 模糊/软聚类 | ✓ | ✓ | ✓ |
-| Hidden Markov Model | 序列概率模型 | ✓ | — | ✓ |
+| Hidden Markov Model | 序列概率模型 | ✓ | ✗ | ✓ |
 
 更准确的原课程内容与后续重构边界见 [`docs/coursework-lineage.md`](docs/coursework-lineage.md)。
 
@@ -43,7 +43,7 @@
 | Gaussian Naive Bayes | Digits 分类 | **82.89%** | sklearn: **82.89%** |
 | Multiclass Perceptron | Digits 分类 | **94.67%** | sklearn: **93.11%** |
 | K-Means | Wine 聚类 | **0.8975 ARI**，96.63% 匹配准确率 | sklearn ARI: **0.8975** |
-| Fuzzy C-Means | Wine 聚类 | **0.8975 ARI**，96.63% 匹配准确率 | — |
+| Fuzzy C-Means | Wine 聚类 | **0.8975 ARI**，96.63% 匹配准确率 | sklearn 没有对应实现 |
 | Fisher LDA + 最近质心 | Wine 分类 | **100.00%** | sklearn LDA: **95.56%** |
 | HMM | 合成序列解码 | **83.33%** 隐状态匹配准确率 | 已知生成模型 |
 

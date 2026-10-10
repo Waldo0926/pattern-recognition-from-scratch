@@ -27,10 +27,10 @@ The emphasis is not on wrapping scikit-learn. The algorithms in `prlib/` impleme
 |---|---|:---:|:---:|:---:|
 | Gaussian Naive Bayes | Probabilistic classification | ✓ | ✓ | ✓ |
 | Multiclass Perceptron | Linear classification | ✓ | ✓ | ✓ |
-| Fisher LDA | Discriminant analysis | ✓ | — | ✓ |
+| Fisher LDA | Discriminant analysis | ✓ | ✗ | ✓ |
 | K-Means | Hard clustering | ✓ | ✓ | ✓ |
 | Fuzzy C-Means | Soft clustering | ✓ | ✓ | ✓ |
-| Hidden Markov Model | Sequence modelling | ✓ | — | ✓ |
+| Hidden Markov Model | Sequence modelling | ✓ | ✗ | ✓ |
 
 See [`docs/coursework-lineage.md`](docs/coursework-lineage.md) for a precise explanation of what came from the original coursework and what was rebuilt or extended later.
 
@@ -43,7 +43,7 @@ A reproducible snapshot from the experiment scripts:
 | Gaussian Naive Bayes | Digits | **82.89%** accuracy | sklearn: **82.89%** |
 | Multiclass Perceptron | Digits | **94.67%** accuracy | sklearn: **93.11%** |
 | K-Means | Wine | **0.8975 ARI**, 96.63% matched accuracy | sklearn ARI: **0.8975** |
-| Fuzzy C-Means | Wine | **0.8975 ARI**, 96.63% matched accuracy | — |
+| Fuzzy C-Means | Wine | **0.8975 ARI**, 96.63% matched accuracy | no sklearn equivalent |
 | Fisher LDA + nearest centroid | Wine | **100.00%** accuracy | sklearn LDA: **95.56%** |
 | HMM | Synthetic sequence | **83.33%** matched hidden-state accuracy | known generating model |
 
